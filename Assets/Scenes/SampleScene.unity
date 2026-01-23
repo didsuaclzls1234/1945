@@ -1032,7 +1032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d72acbdb75a6444b9fbe73965042f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Monster_Spawner
-  monsterPrefab: {fileID: 376517985964140845, guid: d563a081ccf97bf44b55f24715c32576, type: 3}
+  monsterPrefab:
+  - {fileID: 376517985964140845, guid: d563a081ccf97bf44b55f24715c32576, type: 3}
+  - {fileID: 3092135742364224078, guid: 7b339dd0d53ffd3488251d395ab7954e, type: 3}
   spawnInterval: 2
 --- !u!1 &1950896707
 GameObject:

@@ -43,7 +43,7 @@ public class Monster : MonoBehaviour
             //아이템 드롭
             GameObject go=Instantiate(Effect,transform.position,Quaternion.identity);
             Destroy(go,1f);
-            
+
             ItemDrop();
             Destroy(gameObject);
         }
@@ -70,5 +70,10 @@ public class Monster : MonoBehaviour
     public void ItemDrop()
     {
         Instantiate(Item_Power, transform.position, Quaternion.identity);
+    }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
     }
 }
